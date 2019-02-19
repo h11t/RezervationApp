@@ -10,6 +10,7 @@ namespace RezervationApp.Model.Model
     {
         public int KullaniciId { get; set; }
         public int UcusId { get; set; }
+
         public double Fiyat { get; set; }
 
         //navigation properties

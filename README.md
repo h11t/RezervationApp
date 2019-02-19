@@ -1,3 +1,3 @@
 # RezervationApp
 
-# Asp.Net Core kullanılarak yapılan bilet rezervasyon uygulaması
+Asp.Net Core kullanılarak yapılan bilet rezervasyon uygulaması

@@ -14,7 +14,7 @@ namespace RezervationApp.Model.Model
         //navigation properties
         [ForeignKey("KalkisId")]
         public virtual Sehir KalkisSehri { get; set; }
-        [ForeignKey("VarisId")]
+       
         public virtual Sehir VarisSehri { get; set; }
 
     }

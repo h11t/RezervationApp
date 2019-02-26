@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RezervationApp.Dal.Abstract
 {
-  public  interface IKullaniciRepository:IRepository<Kullanici,int,RezervationContext>
+  public  interface IKullaniciRepository:IRepository<Kullanici,int>
     {
     }
 }

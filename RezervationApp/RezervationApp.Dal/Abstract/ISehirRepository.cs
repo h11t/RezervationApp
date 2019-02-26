@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RezervationApp.Dal.Abstract
 {
- public   interface ISehirRepository:IRepository<Sehir,int,RezervationContext>
+ public   interface ISehirRepository:IRepository<Sehir,int>
     {
     }
 }

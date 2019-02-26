@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RezervationApp.Dal.Abstract
 {
- public   interface IRotaRepository:IRepository<Rota,int,RezervationContext>
+ public   interface IRotaRepository:IRepository<Rota,int>
     {
     }
 }

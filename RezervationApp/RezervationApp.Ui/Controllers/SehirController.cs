@@ -15,9 +15,9 @@ namespace RezervationApp.Ui.Controllers
             service = _service;
         }
         public IActionResult Index()
-        {   
-            
-            return View();
+        {
+          var list=   service.GetList();
+            return View(list);
         }
     }
 }
